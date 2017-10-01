@@ -15,7 +15,13 @@ router.post('/index', (req, res) => {
     let newUser = new db.userModel({
       eventName: req.body.eventName,
       date: req.body.date,
-      location: req.body.location
+      location: req.body.location,
+      email: req.body.email,
+      firstName: req.body.firstName,
+      lastName: req.body.lastName,
+      cunyID: req.body.cunyID,
+      gender: req.body.gender,
+      phoneNumber: req.body.phoneNumber
     });
 
     // saves all the data in the db
