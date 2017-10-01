@@ -1,0 +1,73 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #333333;
+    background-color: #fff;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.homeImg {
+    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url(/images/Quad_ClockTower_Students.jpg) fixed;
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#frontTitle {
+    margin: 0 !important;
+    text-align: center;
+    color: white !important;
+    padding-top: 20% !important;
+    font-size: 60px;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+
+.container {
+    margin: 0 auto;
+    background-color: #303030;
+    width: 100%;
+    color: white;
+    margin-right: auto;
+}
+
+.consent {
+    margin: 0 auto;
+    color: white;
+    background-color: #303030;
+    text-align: center;
+  }
+
+
+ol li {
+  text-align: left;
+}
+
+/*all the text inputs in the consent-form*/
+input[type=text] {
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #b02428;
+  background-color: transparent;
+  color: white;
+}
+
+/*// for the date input in the consent-form*/
+input[type=date] {
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #b02428;
+  background-color: transparent;
+  color: white;
+}
